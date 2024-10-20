@@ -1,0 +1,8 @@
+Description:
+This project implements a Perceptual Audio Coding system, inspired by the principles used in MP3 compression. It focuses on reducing the data size of audio signals while preserving sound quality, leveraging the psychoacoustic model. The system processes a 16-second music signal sampled at 44.1kHz and encodes it based on perceptually significant frequency bands. It includes the computation of the Absolute Threshold of Hearing, critical bands, and masking effects, followed by a filterbank-based time-frequency analysis. The project compares two quantization methods: an adaptive quantizer based on psychoacoustic thresholds and a non-adaptive uniform quantizer. Key features include signal normalization, spectral analysis, tonal and noise masker detection, and audio reconstruction with compression ratios and error metrics.
+
+Key Features:
+Implementation of psychoacoustic model-based compression
+Signal processing with windowing, filterbanks, and quantization
+Compression and reconstruction of audio signals with comparison between adaptive and fixed quantization methods
+Plots and visualizations for each processing step, including spectral and error analysis
