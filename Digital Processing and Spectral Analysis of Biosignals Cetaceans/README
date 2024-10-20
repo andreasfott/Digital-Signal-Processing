@@ -1,0 +1,10 @@
+Description:
+This project involves the digital processing and spectral analysis of biosignals produced by marine mammals, specifically the sperm whale and the humpback whale. The project focuses on converting raw acoustic data from hydrophones into pressure signals, applying various signal processing techniques to analyze the characteristics of whale calls. Techniques include time-domain processing, such as short-time energy and zero-crossing rate, and frequency-domain analysis, including spectral centroid, spectral flux, and power spectral density estimation using Welch’s method. Additionally, the project applies bandpass filtering to isolate relevant signal components and explores the application of the Teager-Kaiser energy operator to enhance transient signal detection.
+
+Key Features:
+Conversion of raw hydrophone data to pressure signals for both sperm and humpback whales
+Short-time energy and zero-crossing rate calculations for time-domain signal analysis
+Spectral analysis including Fourier transforms, spectral centroid, spectral flux, and power spectral density estimation
+Bandpass filtering to remove noise and enhance signal clarity
+Application of the Teager-Kaiser Energy Operator for transient event detection
+Spectrogram visualization and mel-spectrogram analysis with Per Channel Energy Normalization (PCEN) for signal contrast enhancement
